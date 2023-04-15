@@ -1,7 +1,7 @@
 package herancaDP;
 
 public class ContaPoupanca extends Conta {
-    public void atualiza(double taxa) {
-        super.deposita(this.getSaldo() * taxa * 3);
-    }
+	public void atualiza(double taxa) {
+		super.deposita(this.getSaldo() * taxa * 3);
+	}
 }
