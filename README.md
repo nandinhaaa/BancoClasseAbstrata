@@ -8,6 +8,7 @@ Continuação da atividade BancoClasseAbstrata
 
 # Exceções
 Continuação da atividade Inserção de Interfaces 
+
 ValorInvalidoException: exceção lançada quando o valor passado para o método deposita de uma conta é negativo.
 * Adição da classe ValorInvalidoException, que herda de Exception e é utilizada para lidar com situações onde o valor informado para uma operação é inválido.
 * A classe Conta passou a lançar a exceção ValorInvalidoException no método deposita() quando o valor passado como parâmetro é menor que zero.
